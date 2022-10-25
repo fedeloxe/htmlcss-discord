@@ -105,11 +105,14 @@ a{
 }
 
 .bg-h3{
+    
     display: flex;
-    justify-content: center;
     flex-direction: column;
-
+    align-items: center;
+    font-size: 27px;
 }
+
+
 
 h3{
     color: black;
