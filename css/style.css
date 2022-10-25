@@ -5,19 +5,15 @@
     font-family: 'Whitney', sans-serif;
 }
 
+/*header*/ 
+
 header{
-    background-color:rgb(49,97 ,224 );
+    background-color:rgb(42,94 ,232 );           
     height: 75px;
     display:flex;
     align-items: center;
 }
 
-.flex-end{
-    display:flex ;
-    justify-content: flex-end;
-    width: 100%;
-    
-}
 
 ul{
     list-style-type: none;
@@ -37,10 +33,70 @@ a{
     padding: 10px;
     border-radius: 25px;
     text-decoration: none;
+    
+    
+    
+}
 
+/*main*/
+
+.jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.conteiner-jumbo{
+    width: 40%;
+    margin: 0 auto;
+    padding: 100px 0 235px;
 
 }
 
+.col-100{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+h1{
+    font-size: 4em;
+    margin-bottom: 60px;
+}
+
+.jumbo p{
+    font-size: 24px;
+    text-indent: 50px;
+    margin-bottom: 45px;
+}
+
+.jumbo-button{
+    font-size: 20px;
+
+}
+
+.a-black{
+    margin-left: 40px;
+    background-color: black;
+    color: white;
+}
+
+.jumbo .a-white::before{
+    content: "\01F827";  
+}
+
+
+
+
+
+
+.flex-end{
+    display:flex ;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
 .conteiner{
     width: 75%;
     margin: 0 auto;
