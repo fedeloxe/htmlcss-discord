@@ -15,7 +15,7 @@ header{
 }
 
 
-ul{
+header ul{
     list-style-type: none;
     color: white;
     display: flex;
@@ -23,7 +23,7 @@ ul{
     font-size: large;
 }
 
-li{
+header li{
     margin: 10px;
 }
 
@@ -130,6 +130,72 @@ h3{
 }
 
 
+/*footer*/
+
+.bg-black{ 
+    background-color: rgb(35, 39, 42)
+}
+
+footer .conteiner{
+    padding-top: 100px;
+}
+  
+/*col-30 footer*/
+
+footer h3{      
+    color: rgb(114, 137, 218);
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+
+.col-30 span{
+    color: white;
+    padding-bottom: 25px;
+
+}
+
+.col-30 span::before{
+    content: "";
+    display: block;
+    background: url('../img/ita.png');
+    width: 25px;
+    height: 17px;
+    float: left;
+    background-size: contain;
+}
+
+.col-30 span::after{
+    content: "\02C5";
+
+}
+
+footer img{width: 50%;
+
+}
+
+/*col-70 footer*/
+
+footer ul{
+    list-style-type: none;
+    color: white;
+}
+
+.col-70 span{
+    color: rgb(114, 137, 218);
+    padding-bottom: 5px;
+}
+
+.col-70 li{
+    padding-bottom: 5px;
+}
+
+footer .row{
+    padding-bottom: 50px;
+}
+
+
+
+
 /*attribute*/
 
 .flex-end{
@@ -150,7 +216,6 @@ h3{
 
 .col-25{
     width: 25%;
-    
 }
 
 .col-50{
@@ -173,3 +238,29 @@ h3{
 .col-40{
     width: 40%;
 }
+
+.col-30{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+    
+
+
+}
+.col-70{
+    width: 70%;
+}
+
+footer .col-25{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-footer{
+    display: flex;
+
+    
+}
+
