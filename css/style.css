@@ -33,9 +33,6 @@ a{
     padding: 10px;
     border-radius: 25px;
     text-decoration: none;
-    
-    
-    
 }
 
 /*main*/
@@ -100,6 +97,37 @@ a{
     background-color: lightgray;
 }
 
+#h2-last{
+    font-size: 3em;
+    color: black;
+}
+
+#p-last{
+    color: black;
+    padding: 50px 275px 0px 275px;
+}
+
+
+.bg-h3{
+    padding: 4px 10px 0px 10px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+
+h3{
+    color: black;
+    margin: 5px 5px 5px 5px;
+}
+
+.a-blue{
+    margin-top: 50px;
+    background-color: rgb(142, 161, 225) ;
+    color: white;
+
+}
+.a-blue::before{
+    content: "\01F827";  
+}
 
 
 /*attribute*/
