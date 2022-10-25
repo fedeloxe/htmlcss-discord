@@ -40,7 +40,7 @@ a{
 
 /*main*/
 
-.jumbo{
+.jumbo{                    /*jumbo*/
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
@@ -52,15 +52,7 @@ a{
 
 }
 
-.col-100{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-}
-
-h1{
+.jumbo h2{
     font-size: 4em;
     margin-bottom: 60px;
 }
@@ -87,9 +79,30 @@ h1{
 }
 
 
+/*main section*/
+
+.padding{
+    padding: 100px 0 100px 0;
+}
+
+.col-40 h2{
+    font-size: 3em;
+    padding: 20px 100px 20px 150px;
+}
+
+.col-40 p{
+    padding: 20px 100px 20px 150px;
+    
+}
+
+
+.bg-gray{ 
+    background-color: lightgray;
+}
 
 
 
+/*attribute*/
 
 .flex-end{
     display:flex ;
@@ -109,9 +122,26 @@ h1{
 
 .col-25{
     width: 25%;
-
+    
 }
 
 .col-50{
     width: 50%;
+}
+
+.col-100{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.col-60{
+    width: 60%;
+
+}
+
+.col-40{
+    width: 40%;
 }
