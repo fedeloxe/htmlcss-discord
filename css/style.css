@@ -14,7 +14,6 @@ header{
     align-items: center;
 }
 
-
 header ul{
     list-style-type: none;
     color: white;
@@ -75,7 +74,6 @@ a{
     content: "\01F827";  
 }
 
-
 /*main section*/
 
 .padding{
@@ -92,7 +90,6 @@ a{
     
 }
 
-
 .bg-gray{ 
     background-color: lightgray;
 }
@@ -107,11 +104,11 @@ a{
     padding: 50px 275px 0px 275px;
 }
 
-
 .bg-h3{
-    padding: 4px 10px 0px 10px;
-    background-image: url(../img/stars.svg);
-    background-size: contain;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
 h3{
@@ -123,12 +120,11 @@ h3{
     margin-top: 50px;
     background-color: rgb(142, 161, 225) ;
     color: white;
-
 }
+
 .a-blue::before{
     content: "\01F827";  
 }
-
 
 /*footer*/
 
@@ -151,7 +147,6 @@ footer h3{
 .col-30 span{
     color: white;
     padding-bottom: 25px;
-
 }
 
 .col-30 span::before{
@@ -166,11 +161,9 @@ footer h3{
 
 .col-30 span::after{
     content: "\02C5";
-
 }
 
-footer img{width: 50%;
-
+.col-30 img{width: 50%;
 }
 
 /*col-70 footer*/
@@ -193,6 +186,18 @@ footer .row{
     padding-bottom: 50px;
 }
 
+/*last section footer*/
+.a-footer{
+    background-color: rgb(142, 161, 225);
+    color: white;
+}
+
+.last-footer{
+    padding-top: 30px;
+    border-top: 1px solid rgb(74, 88, 130) ;
+}
+
+
 
 
 
@@ -204,6 +209,7 @@ footer .row{
     width: 100%;
     
 }
+
 .conteiner{
     width: 75%;
     margin: 0 auto;
@@ -260,7 +266,5 @@ footer .col-25{
 
 .row-footer{
     display: flex;
-
-    
 }
 
