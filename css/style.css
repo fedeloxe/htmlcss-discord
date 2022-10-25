@@ -2,4 +2,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Whitney', sans-serif;
+}
+
+header{
+    background-color:rgb(49,97 ,224 );
+    height: 75px;
+    display:flex;
+    align-items: center;
+}
+
+.flex-end{
+    display:flex ;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+li{
+    margin: 10px;
+}
+
+a{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+
+
+}
+
+.conteiner{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.col-25{
+    width: 25%;
+
+}
+
+.col-50{
+    width: 50%;
 }
