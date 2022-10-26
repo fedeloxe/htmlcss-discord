@@ -32,10 +32,8 @@ a{
 
 }
 
-a:hover{
-    background-color: transparent;
-    border: 1px solid white;
-}
+
+
 
 
 /*main*/
@@ -49,11 +47,11 @@ a:hover{
     width: 40%;
     margin: 0 auto;
     padding: 100px 0 235px;
-
+    
 }
 
 .jumbo h2{
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: 60px;
 }
 
@@ -65,7 +63,7 @@ a:hover{
 
 .jumbo-button{
     font-size: 20px;
-
+    
 }
 
 .a-black{
@@ -142,7 +140,7 @@ h3{
 footer .conteiner{
     padding-top: 100px;
 }
-  
+
 /*col-30 footer*/
 
 footer h3{      
@@ -209,6 +207,10 @@ footer .row{
 
 
 /*attribute*/
+a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
 
 .flex-end{
     display:flex ;
