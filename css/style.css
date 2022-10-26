@@ -62,8 +62,7 @@ a{
 }
 
 .jumbo-button{
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 
 .a-black{
@@ -72,9 +71,7 @@ a{
     color: white;
 }
 
-.jumbo .a-white::before{
-    content: "\01F827";  
-}
+
 
 /*main section*/
 
