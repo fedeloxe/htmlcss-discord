@@ -18,13 +18,11 @@ header ul{
     list-style-type: none;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     font-size: large;
 }
 
-header li{
-    margin: 10px;
-}
+
 
 a{
     color: black;
