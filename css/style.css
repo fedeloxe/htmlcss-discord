@@ -9,7 +9,7 @@
 
 header{
     background-color:rgb(42,94 ,232 );           
-    height: 75px;
+    padding-top: 40px;
     display:flex;
     align-items: center;
 }
@@ -23,14 +23,20 @@ header ul{
 }
 
 
-
 a{
     color: black;
     background-color: white;
     padding: 10px;
     border-radius: 25px;
     text-decoration: none;
+
 }
+
+a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
 
 /*main*/
 
